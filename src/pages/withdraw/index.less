@@ -1,0 +1,75 @@
+.withdraw-container {
+  .form {
+    .adm-list {
+      padding-left: 0.25rem;
+      .adm-list-body {
+        border-top: 0;
+      }
+      .adm-list-item {
+        padding-left: 0;
+      }
+    }
+  }
+}
+
+.custom-modal {
+  background-color: #f8f8f8;
+  .adm-modal-title {
+    padding: 20px;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .adm-list-item-content-main {
+    padding: 0;
+  }
+  .adm-list {
+    border: rgba(166, 166, 166, 1) solid 1px;
+  }
+  .pwd-input {
+    height: 25px;
+    input {
+      font-size: 12px !important;
+
+    }
+  }
+  .adm-modal-footer {
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 80, 0.05);
+    position: relative;
+    padding: 0;
+    height: 40px;
+    &::after {
+      display: block;
+      content: '';
+      position: absolute;
+      left: 50%;
+      top: 0;
+      transform: translateX(-50%);
+      height: 100%;
+      width: 1px;
+      background-color: rgba(0, 0, 80, 0.05);
+    }
+    .adm-space-item:first-child {
+      margin-bottom: 0;
+      .adm-button {
+        background-color: transparent;
+        border: none;
+        color: rgba(0, 122, 255, 1);
+        // padding: 0 24px;
+
+      }
+    }
+    .adm-space-item {
+      width: 50%;
+      height: 100%;
+    }
+    .adm-button {
+      width: 100%;
+      font-size: 15px;
+      height: 100%;
+    }
+  }
+}

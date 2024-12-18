@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+svg {
+  display: inline-block;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.adm-toast-mask .adm-toast-main {
+  max-width: 250px !important;
+}
